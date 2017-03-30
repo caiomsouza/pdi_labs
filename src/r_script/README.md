@@ -83,11 +83,12 @@ to C:\Pentaho\pentaho-ee-7.0.0.2-52-x64\design-tools\data-integration\libswt\win
 
 7. Try R Script Executor Step located in the statistics folder
 
+In statistics step, you can find R script Executor step.
+If you have any question you can ask me or else you can drop me email:
+
+Real Example:
 ![R Script Executor Step](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r.PNG)
 
-
-In statistics step, you can find R script Executor step.
-If you have any question you can ask me or else you can drop me email :
 
 # References
 http://wiki.pentaho.com/display/EAI/R+script+executor
