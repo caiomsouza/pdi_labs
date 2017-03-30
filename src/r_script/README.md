@@ -2,7 +2,35 @@
 
 1. Install R Script into PDI 7.0 EE and Windows 10 (64)
 
+Steps:
 
+* Install R and R Studio (use the latest version)
+* Install rJava package using R Studio
+
+```
+install.packages('rJava')
+```
+
+* Set Environment variables for R:
+
+Use the command below in R Studio in order to find out your R_HOME, R_LIBS_USER variables;
+
+```
+Sys.getenv("R_HOME")
+Sys.getenv("R_LIBS_USER")
+
+```
+
+R_HOME -  C:\Program Files\R\R-3.0.1
+R_LIBS_USER - C:\Program Files\R\R-3.0.1\library
+Path - C:\Program Files\R\R-3.0.1\bin\i386
+
+
+Install pentaho-r-plugin in /data-integration/plugins/steps folder  (find plugin in attachments)
+Copy /rJava/jri/i386/jri.dll file (for 32 bit system) to /data-integration/libswt/win32
+Restart PDI
+In statistics step, you can find R script Executor step.
+If you have any question you can ask me or else you can drop me email :
 
 
 http://biwithui.blogspot.co.uk/2015/05/r-integration-with-pdi.html
