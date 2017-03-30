@@ -2,7 +2,12 @@
 
 This tutorial will teach you how to integrate PDI with R.
 
-# What is PDI?
+# What is PDI (Pentaho Data Integration)?
+
+Pentaho Data Integration prepares and blends data to create a complete picture of your business that drives actionable insights. The platform delivers accurate, analytics-ready data to end users from any source. With visual tools to eliminate coding and complexity, Pentaho puts big data and all data sources at the fingertips of business and IT users.
+
+Source: <BR>
+http://www.pentaho.com/product/data-integration<BR>
 
 # What is R and R Studio?
 
@@ -75,8 +80,6 @@ Copy C:\Users\csouza\Documents\R\win-library\3.3\rJava\jri\x64\jri.dll (for 64 b
 to C:\Pentaho\pentaho-ee-7.0.0.2-52-x64\design-tools\data-integration\libswt\win64
 
 ![To PDI]( https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r5.PNG )
-
-![Image 6](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG)
 
 
 6. Restart PDI
