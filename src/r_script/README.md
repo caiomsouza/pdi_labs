@@ -31,8 +31,6 @@ In my case my variables are:
 > 
 ```
 
-![Image 6](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG)
-
 ![Image 7](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r7.PNG)
 
 ![Image 8](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r8.PNG)
@@ -53,6 +51,10 @@ Path - C:\Program Files\R\R-3.0.1\bin\i386
 Install pentaho-r-plugin in /data-integration/plugins/steps folder  (find plugin in attachments)
 
 Copy /rJava/jri/i386/jri.dll file (for 32 bit system) to /data-integration/libswt/win32
+
+![Image 6](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG)
+
+
 Restart PDI
 In statistics step, you can find R script Executor step.
 If you have any question you can ask me or else you can drop me email :
