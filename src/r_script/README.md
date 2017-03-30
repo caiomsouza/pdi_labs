@@ -42,7 +42,7 @@ setwd("~/")
 
 C:\Users\csouza\Documents\R\win-library\3.3\rJava\jri\x64
 
-
+![Image 1](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r.PNG)
 
 
 
