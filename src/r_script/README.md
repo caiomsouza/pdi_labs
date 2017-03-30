@@ -44,6 +44,25 @@ C:\Users\csouza\Documents\R\win-library\3.3\rJava\jri\x64
 
 ![Image 1](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r.PNG)
 
+![Image 2](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r2.PNG)
+
+![Image 3](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r3.PNG)
+
+![Image 4](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r4.PNG)
+
+![Image 5](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r5.PNG)
+
+![Image 6](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG)
+
+![Image 7](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r7.PNG)
+
+![Image 8](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r8.PNG)
+
+![Image 9](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r9.PNG)
+
+![Image 10](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r10.PNG)
+
+![Image 11](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r11.PNG)
 
 
 
