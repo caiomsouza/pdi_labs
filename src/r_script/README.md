@@ -1,6 +1,13 @@
 # Machine Learning with PDI and R
 
-This tutorial will teach you how to integrate PDI with R. 
+This tutorial will teach you how to integrate PDI with R.
+
+# What is PDI?
+
+# What is R and R Studio?
+
+# What is R Script Executor?
+R Script Executor for PDI: An R executor step allows an R script to be run as part of a Pentaho Data Integration transformation removing the burden of data preparation.
 
 # Install R Script into PDI 7.0 EE and Windows 10 (64)
 
@@ -80,10 +87,18 @@ to C:\Pentaho\pentaho-ee-7.0.0.2-52-x64\design-tools\data-integration\libswt\win
 In statistics step, you can find R script Executor step.
 If you have any question you can ask me or else you can drop me email :
 
-# Refere
-
+# References
+http://wiki.pentaho.com/display/EAI/R+script+executor
 http://biwithui.blogspot.co.uk/2015/05/r-integration-with-pdi.html
+http://www.prnewswire.com/news-releases/pentaho-data-science-pack-operationalizes-use-of-r-and-weka-261662591.html
+http://www.pentaho.com/announcement/data-science-pack
+https://github.com/it4biz/pdiR
+http://dekarlab.de/wp/?cat=10
 
+
+# Blogs
+https://dankeeley.wordpress.com/2015/04/02/executing-r-from-pentaho-data-integration-pdi-kettle/
+https://github.com/codek/pdi-samples/tree/master/rstats
 
 C:\Users\csouza\Documents\R\win-library\3.3\rJava
 
