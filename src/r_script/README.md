@@ -1,6 +1,8 @@
-# Machine Learning with PDI and R
+# Machine Learning Orchestration
+Pentaho’s data integration and analytics platform ends the ‘gridlock’ associated with machine learning by enabling smooth team collaboration, maximizing limited data science resources and putting predictive models to work on big data faster.
 
-This tutorial will teach you how to integrate PDI with R.
+Source:<BR>
+http://www.pentaho.com/machine-learning-orchestration <BR>
 
 # What is PDI (Pentaho Data Integration)?
 
@@ -9,7 +11,24 @@ Pentaho Data Integration prepares and blends data to create a complete picture o
 Source: <BR>
 http://www.pentaho.com/product/data-integration<BR>
 
-# What is R and R Studio?
+# Machine Learning Orchestration with PDI and R
+
+This tutorial will teach you how to integrate PDI with R.
+
+# What is R?
+
+R is a free software environment for statistical computing and graphics.
+
+Source: <BR>
+https://www.r-project.org/ <BR>
+
+# What is R Studio?
+
+RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
+
+Source: <BR>
+https://www.rstudio.com/products/RStudio/ <BR>
+
 
 # What is R Script Executor?
 R Script Executor for PDI: An R executor step allows an R script to be run as part of a Pentaho Data Integration transformation removing the burden of data preparation.
