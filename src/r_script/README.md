@@ -115,6 +115,8 @@ In the example below we can see how to use PDI to create, test and run a model.
 
 ![Image 6](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG)
 
+# Delete 
+
 ![Image 7](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r7.PNG)
 
 ![Image 8](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r8.PNG)
