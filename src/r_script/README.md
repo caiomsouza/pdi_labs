@@ -1,17 +1,19 @@
 # Machine Learning with PDI and R
 
-1. Install R Script into PDI 7.0 EE and Windows 10 (64)
+This tutorial will teach you how to integrate PDI with R. 
+
+# Install R Script into PDI 7.0 EE and Windows 10 (64)
 
 Steps:
 
-* Install R and R Studio (use the latest version)
-* Install rJava package using R Studio
+1. Install R and R Studio (use the latest version)
+2. Install rJava package using R Studio
 
 ```
 install.packages('rJava')
 ```
 
-* Set Environment variables for R:
+3. Set Environment variables for R:
 
 Use the command below in R Studio in order to find out your R_HOME, R_LIBS_USER variables;
 
@@ -35,30 +37,46 @@ Set up the variables in your Windows Machine like the images below:
 
 ![Windows Variables Screen](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r7.PNG)
 
+R_HOME
+
 ![Configing R_HOME](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r8.PNG)
 
+R_LIBS_USER
+
 ![Configing R_LIBS_USER](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r9.PNG)
+
+PATH 
 
 ![Configing PATH](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r10.PNG)
 
 
 
+4. Install pentaho-r-plugin in /data-integration/plugins/steps folder  (find plugin in attachments)
 
+If you are using Pentaho Data Integration 7.0 EE you can skip this step because this version already comes with a step called R Script.
 
+5. Copying jri.dll from R to PDI
 
-C:\Users\csouza\Documents\R\win-library\3.3\rJava
-
-
-R_HOME -  C:\Program Files\R\R-3.0.1
-R_LIBS_USER - C:\Program Files\R\R-3.0.1\library
-Path - C:\Program Files\R\R-3.0.1\bin\i386
-
-
-
-
-Install pentaho-r-plugin in /data-integration/plugins/steps folder  (find plugin in attachments)
-
+32 bits
 Copy /rJava/jri/i386/jri.dll file (for 32 bit system) to /data-integration/libswt/win32
+
+64 bits
+Copy /rJava/jri/x64/rJava/jri.dll file (for 64 bit system) to /data-integration/libswt/win64
+
+Real example: 
+Copy C:\Users\csouza\Documents\R\win-library\3.3\rJava\jri\x64\jri.dll (for 64 bit system) 
+
+https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG
+
+
+to C:\Pentaho\pentaho-ee-7.0.0.2-52-x64\design-tools\data-integration\libswt\win64
+
+https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r5.PNG
+
+
+
+
+
 
 ![Image 6](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG)
 
@@ -126,6 +144,16 @@ C:\Users\csouza\Documents\R\win-library\3.3\rJava\jri\x64
 ![Image 10](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r10.PNG)
 
 ![Image 11](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r11.PNG)
+
+
+
+C:\Users\csouza\Documents\R\win-library\3.3\rJava
+
+
+R_HOME -  C:\Program Files\R\R-3.0.1
+R_LIBS_USER - C:\Program Files\R\R-3.0.1\library
+Path - C:\Program Files\R\R-3.0.1\bin\i386
+
 
 
 
