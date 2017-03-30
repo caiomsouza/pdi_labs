@@ -33,6 +33,9 @@ https://www.rstudio.com/products/RStudio/ <BR>
 # What is R Script Executor?
 R Script Executor for PDI: An R executor step allows an R script to be run as part of a Pentaho Data Integration transformation removing the burden of data preparation.
 
+Source: <BR>
+http://wiki.pentaho.com/display/EAI/R+script+executor<BR>
+
 # Install R Script into PDI 7.0 EE and Windows 10 (64)
 
 Steps:
