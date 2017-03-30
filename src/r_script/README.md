@@ -91,12 +91,12 @@ Real Example:
 
 
 # References for Setup PDI with R
-http://wiki.pentaho.com/display/EAI/R+script+executor
-http://biwithui.blogspot.co.uk/2015/05/r-integration-with-pdi.html
-http://www.prnewswire.com/news-releases/pentaho-data-science-pack-operationalizes-use-of-r-and-weka-261662591.html
-http://www.pentaho.com/announcement/data-science-pack
-https://github.com/it4biz/pdiR
-http://dekarlab.de/wp/?cat=10
+http://wiki.pentaho.com/display/EAI/R+script+executor <BR>
+http://biwithui.blogspot.co.uk/2015/05/r-integration-with-pdi.html <BR>
+http://www.prnewswire.com/news-releases/pentaho-data-science-pack-operationalizes-use-of-r-and-weka-261662591.html <BR>
+http://www.pentaho.com/announcement/data-science-pack <BR>
+https://github.com/it4biz/pdiR <BR>
+http://dekarlab.de/wp/?cat=10 <BR>
 
 
 # Real Example of Learning Orchestration using PDI and R
@@ -113,15 +113,7 @@ In the example below we can see how to use PDI to create, test and run a model.
 
 ![Image 5](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r5.PNG)
 
-
-# Delete 
-
-![Image 6](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG)
-
-
-
-
 # References for the Real Example of Learning Orchestration using PDI and R
-http://www.pentaho.com/machine-learning-orchestration
-https://dankeeley.wordpress.com/2015/04/02/executing-r-from-pentaho-data-integration-pdi-kettle/
-https://github.com/codek/pdi-samples/tree/master/rstats
+http://www.pentaho.com/machine-learning-orchestration <BR>
+https://dankeeley.wordpress.com/2015/04/02/executing-r-from-pentaho-data-integration-pdi-kettle/ <BR>
+https://github.com/codek/pdi-samples/tree/master/rstats <BR>
