@@ -57,21 +57,19 @@ If you are using Pentaho Data Integration 7.0 EE you can skip this step because 
 
 5. Copying jri.dll from R to PDI
 
-32 bits
-Copy /rJava/jri/i386/jri.dll file (for 32 bit system) to /data-integration/libswt/win32
+32 bits - Copy /rJava/jri/i386/jri.dll file (for 32 bit system) to /data-integration/libswt/win32
 
-64 bits
-Copy /rJava/jri/x64/rJava/jri.dll file (for 64 bit system) to /data-integration/libswt/win64
+64 bits - Copy /rJava/jri/x64/jri.dll file (for 64 bit system) to /data-integration/libswt/win64
 
 Real example: 
 Copy C:\Users\csouza\Documents\R\win-library\3.3\rJava\jri\x64\jri.dll (for 64 bit system) 
 
-https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG
+![From R](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG)
 
 
 to C:\Pentaho\pentaho-ee-7.0.0.2-52-x64\design-tools\data-integration\libswt\win64
 
-https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r5.PNG
+![To PDI]( https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r5.PNG )
 
 
 
