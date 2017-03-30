@@ -111,7 +111,6 @@ In the example below we can see how to use PDI to create, test and run a model.
 
 ![Image 4](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r4.PNG)
 
-![Image 5](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r5.PNG)
 
 # References for the Real Example of Learning Orchestration using PDI and R
 http://www.pentaho.com/machine-learning-orchestration <BR>
