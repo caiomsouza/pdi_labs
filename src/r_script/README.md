@@ -90,7 +90,7 @@ Real Example:
 ![R Script Executor Step](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r.PNG)
 
 
-# References
+# References for Setup PDI with R
 http://wiki.pentaho.com/display/EAI/R+script+executor
 http://biwithui.blogspot.co.uk/2015/05/r-integration-with-pdi.html
 http://www.prnewswire.com/news-releases/pentaho-data-science-pack-operationalizes-use-of-r-and-weka-261662591.html
@@ -99,43 +99,9 @@ https://github.com/it4biz/pdiR
 http://dekarlab.de/wp/?cat=10
 
 
-# Blogs
-https://dankeeley.wordpress.com/2015/04/02/executing-r-from-pentaho-data-integration-pdi-kettle/
-https://github.com/codek/pdi-samples/tree/master/rstats
+# Real Example of Learning Orchestration using PDI and R
 
-C:\Users\csouza\Documents\R\win-library\3.3\rJava
-
-
-Hey Guys,
-
-Here i would like to explain the How to integrated R with PDI .
-
-Steps:
-Install R 3.0.1
-Install rJava package along with REngine
-Set Environment variables for R:
-R_HOME -  C:\Program Files\R\R-3.0.1
-R_LIBS_USER - C:\Program Files\R\R-3.0.1\library
-Path - C:\Program Files\R\R-3.0.1\bin\i386
-Install pentaho-r-plugin in /data-integration/plugins/steps folder  (find plugin in attachments)
-Copy /rJava/jri/i386/jri.dll file (for 32 bit system) to /data-integration/libswt/win32
-Restart PDI
-In statistics step, you can find R script Executor step.
-If you have any question you can ask me or else you can drop me email :
- 
-Sumit Bansal
-BI Developer
-
-
-C:\Pentaho\pentaho-ee-7.0.0.2-52-x64\design-tools\data-integration\libswt\win64
-
-PATH
-C:\Program Files\R\R-3.3.1\bin\x64
-
-setwd("~/")
-
-
-C:\Users\csouza\Documents\R\win-library\3.3\rJava\jri\x64
+In the example below we can see how to use PDI to create, test and run a model.
 
 ![Image 1](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r.PNG)
 
@@ -161,16 +127,7 @@ C:\Users\csouza\Documents\R\win-library\3.3\rJava\jri\x64
 
 
 
-C:\Users\csouza\Documents\R\win-library\3.3\rJava
-
-
-R_HOME -  C:\Program Files\R\R-3.0.1
-R_LIBS_USER - C:\Program Files\R\R-3.0.1\library
-Path - C:\Program Files\R\R-3.0.1\bin\i386
-
-
-
-
-
-
-
+# References for the Real Example of Learning Orchestration using PDI and R
+http://www.pentaho.com/machine-learning-orchestration
+https://dankeeley.wordpress.com/2015/04/02/executing-r-from-pentaho-data-integration-pdi-kettle/
+https://github.com/codek/pdi-samples/tree/master/rstats
