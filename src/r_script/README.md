@@ -39,6 +39,7 @@ Set up the variables in your Windows Machine like the images below:
 
 ![Configing R_LIBS_USER](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r9.PNG)
 
+![Configing PATH](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r10.PNG)
 
 
 
