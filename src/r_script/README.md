@@ -21,12 +21,37 @@ Sys.getenv("R_LIBS_USER")
 
 ```
 
+In my case my variables are:
+
+```
+> Sys.getenv("R_HOME")
+[1] "C:/PROGRA~1/R/R-33~1.1"
+> Sys.getenv("R_LIBS_USER")
+[1] "C:/Users/csouza/Documents/R/win-library/3.3"
+> 
+```
+
+![Image 6](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r6.PNG)
+
+![Image 7](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r7.PNG)
+
+![Image 8](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r8.PNG)
+
+
+
+
+C:\Users\csouza\Documents\R\win-library\3.3\rJava
+
+
 R_HOME -  C:\Program Files\R\R-3.0.1
 R_LIBS_USER - C:\Program Files\R\R-3.0.1\library
 Path - C:\Program Files\R\R-3.0.1\bin\i386
 
 
+
+
 Install pentaho-r-plugin in /data-integration/plugins/steps folder  (find plugin in attachments)
+
 Copy /rJava/jri/i386/jri.dll file (for 32 bit system) to /data-integration/libswt/win32
 Restart PDI
 In statistics step, you can find R script Executor step.
