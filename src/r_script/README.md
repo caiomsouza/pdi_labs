@@ -33,9 +33,14 @@ In my case my variables are:
 
 Set up the variables in your Windows Machine like the images below:
 
-![Image 7](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r7.PNG)
+![Windows Variables Screen](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r7.PNG)
 
-![Image 8](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r8.PNG)
+![Configing R_HOME](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r8.PNG)
+
+![Configing R_LIBS_USER](https://github.com/caiomsouza/pdi_labs/blob/master/src/r_script/images/pdi_integration_with_r9.PNG)
+
+
+
 
 
 
