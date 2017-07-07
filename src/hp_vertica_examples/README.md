@@ -47,6 +47,22 @@ chmod +x start-demo-vertica-docker-no-data-persistence.sh
 https://www.know-bi.be/blog/article/postgresql-vs.-vertica-time-is-money
 
 
+# Vertica SQL Samples
+```
+CREATE TABLE t (a INT);
+
+SELECT version();
+
+DROP TABLE IF EXISTS vertica_db_control;
+CREATE TABLE vertica_db_control (vertica_version VARCHAR(256));
+
+SELECT * FROM vertica_db_control;
+
+```
+
+# Print screen 
+
+![img1](https://raw.githubusercontent.com/caiomsouza/pdi_labs/master/src/hp_vertica_examples/img/BAServer_Connection_Example_With_HP_Vertica.PNG)
 
 
 
