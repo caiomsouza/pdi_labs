@@ -64,5 +64,9 @@ SELECT * FROM vertica_db_control;
 
 ![img1](https://raw.githubusercontent.com/caiomsouza/pdi_labs/master/src/hp_vertica_examples/img/BAServer_Connection_Example_With_HP_Vertica.PNG)
 
+![img2](https://raw.githubusercontent.com/caiomsouza/pdi_labs/master/src/hp_vertica_examples/img/PDI_Connection_with_HP_Vertica.PNG)
+
+![img3](https://raw.githubusercontent.com/caiomsouza/pdi_labs/master/src/hp_vertica_examples/img/PDI_Transformation_to_Connect_with_HP_Vertica_and_get_vertica_db_version.PNG)
+
 
 
